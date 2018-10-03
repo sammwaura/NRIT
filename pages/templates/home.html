@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 
-{% load static %}
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'NRIT/style.css' %}" />
 
 {% block title %}Welcome to Natural Resource Information and Technology{% endblock %}
 
@@ -9,7 +11,7 @@
 
 
 <div class="card" style="width: 70rem">
-  <img class="card-img-top" src="{% static 'images/forest.png' %}"alt="nrit">
+  <img class="card-img-top" src="{% static "images/home.jpg" %}"alt="home">
   <div class="card-body">
     <h5 class="card-title" style="font-size: 30px; font-family: sans-serif; font-weight: 20px">Introduction</h5>
     <p class="card-text">NRIT Ltd is a natural resource and Information

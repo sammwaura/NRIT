@@ -3,4 +3,10 @@ from __future__ import unicode_literals
 
 from django.db import models
 
-# Create your models here.
+class Pages(models.Model):
+	pages_image = models.ImageField(upload_to = 'pages/')
+	
+	def __init__(self, arg):
+		super(ClassName, self).__init__()
+		self.arg = arg
+		

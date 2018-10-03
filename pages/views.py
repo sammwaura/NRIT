@@ -1,7 +1,9 @@
 from django.shortcuts import render
 
 def home(request):
-	return render(request, "home.html", {})
+	images = Image.get_all_images()
+
+	return render(request, "home.html", {'images':images})
 
 
 def about(request):
