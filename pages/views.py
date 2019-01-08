@@ -1,8 +1,8 @@
 from django.shortcuts import render
-from django.pages import views  
+from pages.models import Pages  
 
 def home(request):
-	images = Image.get_all_images()
+	images = Pages.get_all_images()
 
 	return render(request, "home.html", {'images':images})
 
