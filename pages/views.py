@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.pages import views  
 
 def home(request):
 	images = Image.get_all_images()

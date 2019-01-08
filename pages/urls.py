@@ -10,6 +10,6 @@ urlpatterns = [
 	url('Our Clientele/', views.OurClientele, name='Our Clientele'),
 ]
  
- if settings.DEBUG:
+if settings.DEBUG:
  	urlpatterns+= static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
  	
