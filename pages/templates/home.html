@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% load static%}
+
 {% load staticfiles %}
 
 {% block title %}Welcome to Natural Resource Information and Technology{% endblock %}
@@ -8,10 +10,10 @@
 
 
 
-<div class="card" style="width: 70rem">
+<div class="card">
   <img class="card-img-top" src= "{% static 'images/nature.jpg' %}" alt="nature">
   <div class="card-body">
-    <h5 class="card-title" style="font-size: 30px; font-family: sans-serif; font-weight: 20px">Introduction</h5>
+    <h5 class="card-title">Introduction</h5>
     <p class="card-text">NRIT Ltd is a natural resource and Information
 technology consultancy firm with headquarters in
 Nairobi, Kenya. It is registered under the
@@ -22,10 +24,10 @@ Resources using best practices. It has a pool of
 experts from various fields of natural resource
 management some on full time while others
 are on short notice call.</p>
-	<h6 class="card-title" style="font-size: 30px; font-family: sans-serif; font-weight: 20px">Vission</h6>
+	<h6 class="card-title">Vission</h6>
 	<p>To be a lead consultancy firm in natural resource
 information and technology development.</p>
-	<h7	class="card-title" style="font-size: 30px; font-family: sans-serif; font-weight: 20px">Mission</h7>
+	<h7	class="card-title">Mission</h7>
 	<p>To offer our customers quality and timely
 services that enhances their capacity to
 improve management of natural resources</p>

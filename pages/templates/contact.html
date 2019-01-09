@@ -1,11 +1,16 @@
 {% extends 'base.html' %}
 
+{% load staticfiles %}
+
 {% block title %}Contact Us{% endblock %}
+
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
 
 {% block content %}
 
 
 <div class="card" style="width: 80rem">
+	  <img class="card-img-top" src= "{% static 'images/contacts.jpg' %}" alt="nature">
   <div class="card-body">
     <h5 class="card-title" style="font-size: 30px; font-family: sans-serif; font-weight: 20px">Our Offices</h5>
     <p class="card-text">
