@@ -10,11 +10,14 @@
 
 
 
-<div class="card">
+<div class="view overlay z-depth-1-half">
   <img class="card-img-top" src= "{% static 'images/nature.jpg' %}" alt="nature">
-  <div class="card-body">
-    <h5 class="card-title">Introduction</h5>
-    <p class="card-text">NRIT Ltd is a natural resource and Information
+  <div class="mask rgba-white-light"></div>
+  <div class="col-md-12">
+    <hr>
+    <h5 style="font-weight: 20px; font-family:serif; font-size: 25px;">Introduction</h5>
+    <hr>
+    <p style="font-family: sans-serif; font-size: 22px;">NRIT Ltd is a natural resource and Information
 technology consultancy firm with headquarters in
 Nairobi, Kenya. It is registered under the
 Companies Act (Cap. 486) as a limited company.
@@ -24,11 +27,13 @@ Resources using best practices. It has a pool of
 experts from various fields of natural resource
 management some on full time while others
 are on short notice call.</p>
-	<h6 class="card-title">Vission</h6>
-	<p>To be a lead consultancy firm in natural resource
+	<h6 style="font-weight: 20px; font-family:serif; font-size: 25px;">Vission</h6>
+  <hr>
+	<p style="font-family: sans-serif; font-size: 22px;">To be a lead consultancy firm in natural resource
 information and technology development.</p>
-	<h7	class="card-title">Mission</h7>
-	<p>To offer our customers quality and timely
+	<h7 style="font-weight: 20px; font-family:serif; font-size: 25px;">Mission</h7>
+  <hr>
+	<p style="font-family: sans-serif; font-size: 22px;">To offer our customers quality and timely
 services that enhances their capacity to
 improve management of natural resources</p>
     <a href="{% url  'about' %}" class="btn btn-primary">About</a>
