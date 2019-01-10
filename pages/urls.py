@@ -8,6 +8,8 @@ urlpatterns = [
 	url('about/', views.about, name='about'),
 	url('contact/', views.contact, name='contact'),
 	url('Our Clientele/', views.OurClientele, name='Our Clientele'),
+	url('corevalues/', views.corevalues, name='corevalues'),
+
 ]
  
 if settings.DEBUG:

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}corevalues{% endblock %}
+
+
+{% block content %}
+
+<div class="card" style="width: 80rem">
+	  <img class="card-img-top" src= "{% static 'images/corevalues.jpg' %}" alt="corevalues">
+  <div class="card-body">
+    <h5 class="card-title" style="font-size: 30px; font-family: serif; font-weight: 20px">Our Corevalues</h5>
+     <p style="font-size:30px; font-family: sans-serif; ">
+    	<ul>	
+    		<li>
+    			Professionalism
+    		</li>
+
+    		<li>
+    			Teamwork
+    		</li>
+
+    		<li>
+    			Quality and Efficiency
+    		</li>
+
+			<li>
+    			Customer Care and Focus
+    		</li>
+
+			<li>
+    			Innovative
+    		</li>
+
+			<li>
+    			Integrity, Transparency and Accountability
+    		</li>
+
+			<li>
+    			Building partnerships
+    		</li>
+
+    {% endblock %}

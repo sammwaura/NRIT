@@ -16,4 +16,7 @@ def contact(request):
 
 def OurClientele(request):
 	return render(request, "Our Clientele.html", {})
+	
 
+def corevalues(request):
+	return render(request, "corevalues.html", {})
