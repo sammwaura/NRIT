@@ -4,11 +4,12 @@ from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
-	url('^$', views.home, name='home'),
-	url('about/', views.about, name='about'),
-	url('contact/', views.contact, name='contact'),
-	url('Our Clientele/', views.OurClientele, name='Our Clientele'),
-	url('corevalues/', views.corevalues, name='corevalues'),
+	url(r'^$', views.home, name='home'),
+	url(r'about/$', views.about, name='about'),
+	url(r'contact/$', views.contact, name='contact'),
+	url(r'ourclientele/$', views.OurClientele, name='Our Clientele'),
+	# Kama ungekuwa umechop io coursework ungeona ni kwa nini tuko awake hadi saa hizi
+	url(r'corevalues/$', views.corevalues, name='corevalues'),
 
 ]
  
